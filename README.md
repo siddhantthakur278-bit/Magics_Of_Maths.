@@ -1,1 +1,1 @@
-# MATHS_LEARNING_WEBSITE
+# Magics of Maths

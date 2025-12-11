@@ -3,7 +3,6 @@ const bgCtx = bgCanvas.getContext("2d");
 let w,
   h,
   particles = [];
-
 function resize() {
   w = window.innerWidth;
   h = window.innerHeight;
@@ -12,7 +11,6 @@ function resize() {
 }
 window.addEventListener("resize", resize);
 resize();
-
 class Particle {
   constructor() {
     this.reset();
@@ -74,7 +72,6 @@ function enterSystem() {
     loadScene(1);
   }, 800);
 }
-
 const contentData = {
   1: {
     title: "01. Multiplying by 6",
@@ -113,7 +110,7 @@ const contentData = {
   },
   8: {
     title: "08. Large Multiply",
-    desc: "Use distance from 100 to multiply fast.",
+    desc: "Used the  distance from 100 to multiply it faster.",
     html: `<input type="number" id="inp8a" placeholder="96" style="width:80px"> x <input type="number" id="inp8b" placeholder="97" style="width:80px"><button class="action-btn" onclick="runTrick8()">CALC</button><div id="res8" class="result-box"></div>`,
   },
   9: {
